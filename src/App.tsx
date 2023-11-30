@@ -1,10 +1,10 @@
 import "./App.scss";
-
+import logo from "./assets/teams55-logo.png";
 function App() {
     return (
         <>
             <img
-                src="./src/assets/teams55-logo.png"
+                src={logo}
                 className="logo s55"
                 alt="Team s55 logo"
             />
