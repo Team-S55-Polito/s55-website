@@ -1,3 +1,10 @@
+# Official website repo for TEAM S55 POLITO
+
+## How to run the website locally
+
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
