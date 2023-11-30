@@ -4,7 +4,7 @@ function App() {
     return (
         <>
             <img
-                src="./src/assets/team-logo.png"
+                src="./src/assets/teams55-logo.png"
                 className="logo s55"
                 alt="Team s55 logo"
             />
