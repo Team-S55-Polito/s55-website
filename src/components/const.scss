@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden; // TEST property
 }
 
 .construction {
@@ -19,6 +20,8 @@
     background-color: #242424;
     padding: 5em 2em 2em 2em; 
     height: 100vh;
+    overflow: hidden;
+
 }
 
 .logo {

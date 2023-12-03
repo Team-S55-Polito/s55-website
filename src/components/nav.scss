@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -138,7 +139,7 @@ nav {
     }
 
     #navbar--menu {
-        // width: auto;
+        width: auto;
         height: auto;
         padding: 0;
         position: static; // Reset the position
