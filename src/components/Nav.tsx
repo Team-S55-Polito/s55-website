@@ -1,4 +1,4 @@
-import "./Nav.scss";
+import "./nav.scss";
 import logo from "../assets/teams55-logo.png";
 
 export default function Nav() {
