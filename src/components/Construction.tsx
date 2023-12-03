@@ -1,8 +1,9 @@
-import "./App.scss";
-import logo from "./assets/teams55-logo.png";
-function App() {
+import "./const.scss";
+import logo from "../assets/teams55-logo.png";
+
+export default function Construction() {
     return (
-        <>
+        <div className="construction">
             <img
                 src={logo}
                 className="logo s55"
@@ -10,10 +11,10 @@ function App() {
             />
             <h1>Team S55 beta website</h1>
             <p className="read-the-docs">
-                Website is under construction. Please check back later.
+                This page is under construction. Please check back later.
             </p>
-        </>
+        </div>
     );
 }
 
-export default App;
+
