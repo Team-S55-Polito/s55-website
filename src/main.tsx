@@ -1,10 +1,13 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
-import './index.scss'
+import ReactDOM from "react-dom/client";
+import Construction from "./components/Construction.tsx";
+import Nav from "./components/Nav";
+import "./index.scss";
 
-ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+const main = (
+    <div className="main">
+        <Nav />
+        <Construction />
+    </div>
+);
+
+ReactDOM.createRoot(document.getElementById("root")!).render(main);
