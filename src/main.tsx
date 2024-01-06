@@ -10,4 +10,4 @@ const main = (
     </div>
 );
 
-ReactDOM.createRoot(document.getElementById("root")!).render(main);
+ReactDOM.render(main, document.getElementById("root"));

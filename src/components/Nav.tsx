@@ -24,7 +24,7 @@ const Nav = () => {
         return () => mediaQuery.removeEventListener("change", handleChange);
     }, []);
 
-    const toggleTheme = darkMode => {
+    const toggleTheme = (darkMode: any) => {
         if (darkMode) {
             document.documentElement.classList.add("dark");
         } else {
