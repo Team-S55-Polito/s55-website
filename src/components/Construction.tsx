@@ -1,12 +1,11 @@
-import "./const.scss";
-import logo from "../assets/teams55-logo.png";
+import logo from "/src/assets/teams55-logo.png";
 
 export default function Construction() {
     return (
-        <div className="construction">
+        <div className="text-3xl flex flex-col justify-start items-center leading-normal font-normal h-screen overflow-hidden p-5 dark:bg-black dark:text-white">
             <img
                 src={logo}
-                className="logo s55"
+                className="h-56 p-6 bg-black rounded-xl shadow-md"
                 alt="Team s55 logo"
             />
             <h1>Team S55 beta website</h1>

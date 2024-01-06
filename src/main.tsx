@@ -1,10 +1,10 @@
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 import Construction from "./components/Construction.tsx";
 import Nav from "./components/Nav";
-import "./index.scss";
+import "./index.css";
 
 const main = (
-    <div className="main">
+    <div className="">
         <Nav />
         <Construction />
     </div>
